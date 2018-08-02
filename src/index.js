@@ -100,7 +100,7 @@ export default (opt: { [string]: any } = {}) => {
     }
 
     render() {
-      const { value, onChange, plugins, ...rest } = this.props;
+      const { value, onChange, plugins, ...rest } = this.props; // eslint-disable-line
       return (
         <div className="markdown-body">
           <Editor
